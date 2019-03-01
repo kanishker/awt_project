@@ -24,3 +24,8 @@ Route::resources([
     'movie' => 'Api\MovieController',
 ]);
 
+Route::resources([
+    'article' => 'ArticleController',
+]);
+
+//in case of error great routes seperatly as shown in teh tutorial video

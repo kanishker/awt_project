@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class Movie extends JsonResource
+class Article extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,6 +16,4 @@ class Movie extends JsonResource
     {
         return parent::toArray($request);
     }
-
-
 }
